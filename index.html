@@ -1412,9 +1412,9 @@
             if (currentFilter === 'todos') {
                 insightText = `<strong>⚠️ Pico Identificado:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} apresentou ${maxValue} movimentações, representando ${percentage}% do volume total do período. Este foi o mês com maior atividade de armazenagem.`;
             } else if (currentFilter === 'BL') {
-                insightText = `<strong>📍 Pico BLOCADO:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} teve ${maxValue} movimentações em locações BLOCADO (BL), sendo o maior pico deste tipo de localização.`;
+                insightText = `<strong>📍 Pico BLOCADO:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} teve ${maxValue} movimentações em locações BLOCADO (BL), sendo o maior pico deste tipo de Locação.`;
             } else if (currentFilter === 'PP') {
-                insightText = `<strong>📦 Pico PORTA PALLET:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} teve ${maxValue} movimentações em PORTA PALLET (PP) Nível 1, sendo o maior pico deste tipo de localização.`;
+                insightText = `<strong>📦 Pico PORTA PALLET:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} teve ${maxValue} movimentações em PORTA PALLET (PP) Nível 1, sendo o maior pico deste tipo de Locação.`;
             }
 
             document.getElementById('insightBox').innerHTML = insightText;
