@@ -496,7 +496,7 @@
                     </div>
                 </div>
                 <div class="insight-box" id="insightBox">
-                    <strong>⚠️ Pico Identificado:</strong> Março de 2025 apresentou 196 movimentações, representando 31% do volume total do período. Este foi o mês com maior atividade de armazenagem.
+                    <strong>⚠️ Pico Identificado:</strong> Março de 2025 apresentou 196 movimentações, representando 31% do volume total do período. Este foi o mês com maior atividade de armazenagem em locação nível Chão.
                 </div>
             </div>
 
@@ -1410,7 +1410,7 @@
 
             let insightText = '';
             if (currentFilter === 'todos') {
-                insightText = `<strong>⚠️ Pico Identificado:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} apresentou ${maxValue} movimentações, representando ${percentage}% do volume total do período. Este foi o mês com maior atividade de armazenagem.`;
+                insightText = `<strong>⚠️ Pico Identificado:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} apresentou ${maxValue} movimentações, representando ${percentage}% do volume total do período. Este foi o mês com maior atividade de armazenagem locação nível Chão.`;
             } else if (currentFilter === 'BL') {
                 insightText = `<strong>📍 Pico BLOCADO:</strong> ${monthNames[maxIndex]} de ${yearNames[maxIndex]} teve ${maxValue} movimentações em locações BLOCADO (BL), sendo o maior pico deste tipo de Locação.`;
             } else if (currentFilter === 'PP') {
